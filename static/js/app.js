@@ -37,7 +37,14 @@ function buildCharts(sample) {
       var result = Array.from(Array(otu_values.length).keys())
              .sort((x, y) => otu_values[parseInt(x)] < otu_values[parseInt(y)] ? 1 :otu_values[parseInt(x)] == otu_values[parseInt(y)]  ? 0 : -1)
   
-    // Build a Bubble Chart using the sample data
+      var  color_arr=result.map(i=>otu_ids[i]).slice(0,10);
+      var  size_arr= result.map(i=>otu_values[i]).slice(0,10); 
+    
+      color_arr=color_arr.map(x=>x/d3.sum(color_arr)) 
+      size_arr=size_arr.map(x=>x/d3.sum(size_arr)*500) 
+  
+
+      // Build a Bubble Chart using the sample data
     data_bubble = [{
       y: result.map(i=>otu_values[i]).slice(0,10),
       x: result.map(i=>otu_ids[i]).slice(0,10),
@@ -49,8 +56,12 @@ function buildCharts(sample) {
       name:`${sample}th sample`,
       // hoverinfo:"text+y",
       // hoverlabel:{bgcolor:"red",bordercolor:"green",font:{color:"blue"} },
-      marker:{color:result.map(i=>otu_ids[i]*0.001).slice(0,10)
-              ,size:result.map(i=>otu_values[i]).slice(0,10)},
+
+      
+      marker:{color:color_arr,size:size_arr},
+
+      // marker:{color:result.map(i=>otu_ids[i]*0.001).slice(0,10)
+      //         ,size:result.map(i=>otu_values[i]).slice(0,10)},
       opacity: 0.5
     }];
     
