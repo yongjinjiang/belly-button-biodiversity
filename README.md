@@ -1,4 +1,4 @@
-This project is deployed on Heroku: (https://belly-botton-biodiversity.herokuapp.com/)
+This project is deployed on Heroku [here](https://belly-botton-biodiversity.herokuapp.com/).
 
 # Belly Button Biodiversity
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
