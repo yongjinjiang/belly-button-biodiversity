@@ -9,8 +9,7 @@
    
  
 
-This project is deployed on Heroku [here](https://belly-botton-biodiversity.herokuapp.com/).
-
+## **_The original text of the homework assignment:_** 
 # Belly Button Biodiversity
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
