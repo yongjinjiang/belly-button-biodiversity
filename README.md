@@ -1,5 +1,15 @@
-This project is deployed on Heroku [here](https://belly-botton-biodiversity.herokuapp.com/).
+## This is the homework project for unit 15(Interactive-Visualizations-and-Dashboards) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/).
+   - Build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/)
+   - A snapshot of the app: 
+  <img src="./Images/app.png " width="600" height="400">
+   
+   - The app website for this project: https://belly-botton-biodiversity.herokuapp.com/
+   - Select a sample from upperleft corner pf the dashboard, the belly-button-biodiversity related data will be visualized in three different, complementary plots: a Pie plot, a scatter plot, and a gauge chart.  
+   - The tools used in this project: [plotly.js](https://plot.ly/javascript/), [D3.js](https://d3js.org/), [SQLAlchemy](https://www.sqlalchemy.org/), [flask](https://github.com/pallets/flask),[SQLite](https://www.sqlite.org/index.html).
+   
+ 
 
+## **_The original text of the homework assignment:_** 
 # Belly Button Biodiversity
 ![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
 
