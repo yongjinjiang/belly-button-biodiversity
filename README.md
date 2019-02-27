@@ -1,7 +1,7 @@
 ## This is the homework project for unit 15(Interactive-Visualizations-and-Dashboards) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/).
    - Build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/)
    - A snapshot of the app: 
-  <img src="./Images/app.png " width="600" height="400">
+  <img src="./Images/app.png " width="800" height="400">
    
    - The app website for this project: https://belly-botton-biodiversity.herokuapp.com/
    - Select a sample from upperleft corner pf the dashboard, the belly-button-biodiversity related data will be visualized in three different, complementary plots: a Pie plot, a scatter plot, and a gauge chart.  
