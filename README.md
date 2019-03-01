@@ -1,4 +1,5 @@
-## This is the homework project for unit 15(Interactive-Visualizations-and-Dashboards) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/).
+## About 
+   - This is the homework project for unit 15(Interactive-Visualizations-and-Dashboards) of [Data Visualization and Analytics](https://bootcamp.umn.edu/data/landing%20full/).
    - Build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/). For more details, see [here](#the-original-text-of-the-homework-assignment).
    - A snapshot of the app: 
   <img src="./Images/app.png " width="800" height="400">
